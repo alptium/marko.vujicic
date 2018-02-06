@@ -25,12 +25,12 @@ import java.util.Scanner;
 
 			if(operation.equals("+")) {
 				result = firstNumber + secondNumber;
-} 	else if(operation.equals("-")) {
-	result = firstNumber - secondNumber;
-} 	else if(operation.equals("*")) {
-	result = firstNumber * secondNumber;		
-} 	else if(operation.equals("/")) {
-	result = firstNumber / secondNumber;			
+} 		else if(operation.equals("-")) {
+		result = firstNumber - secondNumber;
+} 		else if(operation.equals("*")) {
+		result = firstNumber * secondNumber;		
+} 		else if(operation.equals("/")) {
+		result = firstNumber / secondNumber;			
 }
 
 
