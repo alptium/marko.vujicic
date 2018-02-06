@@ -9,9 +9,7 @@ public class Calculator {
 		// TODO Auto-generated method stub
 System.out.println("Markova Matematika");
 
-int a = 0;
-int b = 0;
-int c = 0;
+
 try (Scanner sc = new Scanner(System.in)){
 
 
