@@ -1,5 +1,5 @@
-package calculator;
-import java.util.Scanner;
+	package calculator;
+	import java.util.Scanner;
 
 
 
@@ -13,18 +13,18 @@ import java.util.Scanner;
 		try (Scanner sc = new Scanner(System.in)){
 
 
-			System.out.println ("Unesite prvi broj: ");
-			int firstNumber = sc.nextInt();
-			System.out.println("Izaberite operaciju: +, -, * ,/ ");
-			String operation = sc.next();
-			System.out.println ("Unesite drugi broj: ");
-			int secondNumber = sc.nextInt();
+		System.out.println ("Unesite prvi broj: ");
+		int firstNumber = sc.nextInt();
+		System.out.println("Izaberite operaciju: +, -, * ,/ ");
+		String operation = sc.next();
+		System.out.println ("Unesite drugi broj: ");
+		int secondNumber = sc.nextInt();
 
 
-			int result = 0;
+		int result = 0;
 
-			if(operation.equals("+")) {
-				result = firstNumber + secondNumber;
+		if(operation.equals("+")) {
+		result = firstNumber + secondNumber;
 } 		else if(operation.equals("-")) {
 		result = firstNumber - secondNumber;
 } 		else if(operation.equals("*")) {
@@ -34,7 +34,7 @@ import java.util.Scanner;
 }
 
 
-	System.out.println("Rezultat je: " + result);
+	  System.out.println("Rezultat je: " + result);
 
 }
 		
