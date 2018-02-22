@@ -1,4 +1,4 @@
-package advanced_gradebook;
+package helloworld;
 
 import java.util.Scanner;
 
