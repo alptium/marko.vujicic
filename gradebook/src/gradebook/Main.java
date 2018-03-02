@@ -14,7 +14,6 @@ public class Main {
 		String student4;
 		String student5;
 		
-		
 		System.out.println("Enter student1 grade:");
 		student1 = sc.next();
 		System.out.println("Enter student2 grade:");
@@ -26,9 +25,9 @@ public class Main {
 		System.out.println("Enter student5 grade:");
 		student5 = sc.next();
 		
-		int	 totalGrade =	0;
+		int	totalGrade =	0;
 		
-		System.out.println(	"Total grade is =" +  student1 + student2 + student3 + student4 + student5 + totalGrade );
+		System.out.println("Total grade is =" +  student1 + student2 + student3 + student4 + student5 + totalGrade );
 		
 		
 		}
